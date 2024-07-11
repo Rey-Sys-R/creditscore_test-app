@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
 # Load the dataset
-file_path = '/workspaces/creditscore_test-app/dataset_modifikasi.xlsx'
+file_path = 'dataset_modifikasi.xlsx'
 data = pd.read_excel(file_path)
 
 # Display the first few rows of the dataset
